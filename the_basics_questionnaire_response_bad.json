@@ -1,0 +1,1117 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+            "valueCode": "en"
+        }
+    ],
+    "identifier": {
+        "value": "375244"
+    },
+    "questionnaire": {
+        "reference": "Questionnaire/8640d60b-8666-4c44-b3aa-cfcb0c99ef25"
+    },
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/1db44618-d2b6-4959-8c26-a025fa68e58e"
+    },
+    "authored": "2023-07-31T14:40:11+00:00",
+    "group": {
+        "linkId": "root_group",
+        "title": "The Basics",
+        "question": [
+            {
+                "linkId": "5690",
+                "text": "In what country were you born?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfEn qu\u00e9 pa\u00eds naci\u00f3 usted?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "ANSWER CODE NOT IN QUESTIONNAIRE SHOULD FAIL",
+                            "display": "ANSWER CODE NOT IN QUESTIONNAIRE SHOULD FAIL"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5696",
+                "text": "Which categories describe you? Select all that apply. Note, you may select more than one group.",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfQu\u00e9 categor\u00edas lo o la describen?\nMarque todas las respuestas que correspondan. Nota: puede seleccionar m\u00e1s de un grupo."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "WhatRaceEthnicity_AIAN",
+                            "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "9788",
+                "text": "American Indian or Alaska Native",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Ind\u00edgena estadounidense"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "AIANSpecific_AmericanIndian",
+                            "display": "American Indian"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5708",
+                "text": "What terms best express how you describe your gender identity? (Check all that apply)",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCon cu\u00e1l g\u00e9nero se identifica mejor? (Marque todas las que correspondan)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "GenderIdentity_Woman",
+                            "display": "Woman"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5704",
+                "text": "What was your biological sex assigned at birth?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfQu\u00e9 sexo biol\u00f3gico se le asign\u00f3 al nacer?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "SexAtBirth_Female",
+                            "display": "Female"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5712",
+                "text": "Which of the following best represents how you think of yourself? (Check all that apply)",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1l de las siguientes opciones piensa usted que le representa mejor? (Marque todas las que correspondan)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "SexualOrientation_Straight",
+                            "display": "Straight; that is, not gay or lesbian, etc."
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5723",
+                "text": "What is the highest grade or year of school you completed?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1l es el grado o nivel de educaci\u00f3n m\u00e1s alto que ha completado?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "HighestGrade_TwelveOrGED",
+                            "display": "Grade 12 or GED (high school graduate) "
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5726",
+                "text": "Have you ever served on active duty in the United States Armed forces, either in the regular military or in a National Guard or military reserve unit? \n\nNote: Active duty does not include training for the Reserves or National Guard, but DOES include activation, for example, for the Persian Gulf War.",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfAlguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar?\n\nNOTA: El servicio activo no incluye el entrenamiento en la Reserva ni en la Guardia Nacional, pero S\u00cd incluye las actividades de movilizaci\u00f3n, por ejemplo, para la Guerra del Golfo P\u00e9rsico."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "AvtiveDutyServeStatus_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5729",
+                "text": "What is your current marital status?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1l es su estado civil actual?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "CurrentMaritalStatus_Married",
+                            "display": "Married"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5734",
+                "text": "number of people",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "n\u00famero  de personas; por favor especifique (valor entero)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueInteger": 1
+                    }
+                ]
+            },
+            {
+                "linkId": "5738",
+                "text": "number of people",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "n\u00famero de ni\u00f1os; por favor especifique (valor entero)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueInteger": 0
+                    }
+                ]
+            },
+            {
+                "linkId": "9762",
+                "text": "Are you covered by health insurance or some other kind of health care plan?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfTiene usted seguro m\u00e9dico o alg\u00fan tipo de plan para el cuidado de su salud?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "HealthInsurance_Yes",
+                            "display": "Yes"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "34779",
+                "text": "Are you currently covered by any of the following types of health insurance or health coverage plans?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Actualmente \u00bfest\u00e1 cubierto por alg\u00fan seguro m\u00e9dico o planes de cobertura m\u00e9dica?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "InsuranceTypeUpdate_EmployerOrUnion",
+                            "display": "Insurance through a current or former employer or union (by you or another family member)"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "44336",
+                "text": "Are you deaf or do you have serious difficulty hearing?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfEs usted sordo/a o tiene serias dificultades al escuchar?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "Deaf_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "44338",
+                "text": "Are you blind or do you have serious difficulty seeing, even when wearing glasses?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfEs usted ciego/a o tiene serias dificultades para ver, incluso mientras usa lentes/anteojos?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "Blind_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "44350",
+                "text": "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering or making decisions?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfTiene usted alguna discapacidad f\u00edsica, mental o emocional que le hace dif\u00edcil concentrarse, recordar o tomar decisiones?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "DifficultyConcentrating_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "44352",
+                "text": "Do you have serious difficulty walking or climbing stairs?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfTiene usted serias dificultades para caminar o subir escaleras?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "WalkingClimbing_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "44354",
+                "text": "Do you have difficulty dressing or bathing?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfTiene usted dificultades para vestirse o ba\u00f1arse?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "DressingBathing_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "44356",
+                "text": "Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting doctor\u2019s office or shopping?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfTiene usted alguna discapacidad f\u00edsica, mental o emocional que le dificulta completar sus tareas cotidianas, tales como visitar la oficina de su m\u00e9dico o ir de compras?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "ErrandsAlone_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5742",
+                "text": "What is your current employment status? Please select 1 or more of these categories. ",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1l es su situaci\u00f3n de trabajo actual?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "EmploymentStatus_Homemaker",
+                            "display": "A homemaker"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5755",
+                "text": "One of the things we're trying to understand is how people's income may affect their use of health services. Household income includes your income plus the income of all family members in your household for the last calendar year. Include all wages and other sources of income. \n\nWhat is your annual household income from all sources?\n",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Una de las cosas que intentamos entender es c\u00f3mo los ingresos de las personas afectan el uso de los servicios de salud. El ingreso familiar incluye sus ingresos m\u00e1s los de todos los integrantes de su familia en su hogar durante el \u00faltimo a\u00f1o de calendario. Incluya todos los salarios y otras fuentes de ingreso.\n\n\u00bfCu\u00e1l es su ingreso familiar anual incluyendo otras fuentes?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "AnnualIncome_less10k",
+                            "display": "Less than $10,000"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5758",
+                "text": "Do you own or rent the place where you live?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfVive usted en casa propia o alquilada (rentada)?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "CurrentHomeOwn_Own",
+                            "display": "Own"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5765",
+                "text": "How many years have you lived at your current address?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1ntos a\u00f1os ha vivido en su direcci\u00f3n actual?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "HowManyLivingYears_6to10",
+                            "display": "6-10 years"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5769",
+                "text": "In the past 6 months, have you been worried or concerned about NOT having a place to live?",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "En los \u00faltimos 6 meses, \u00bfha estado usted preocupado por NO tener un lugar estable donde vivir del que sea due\u00f1o, que rente (alquile) o se aloje como parte de un hogar?"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "StableHouseConcern_No",
+                            "display": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "10879",
+                "text": "SocialSecurity_PreferNotToAnswer",
+                "answer": [
+                    {
+                        "valueBoolean": true
+                    }
+                ]
+            },
+            {
+                "linkId": "10880",
+                "text": "SecondaryContactInfo_PersonOnePreferNotToAnswer",
+                "answer": [
+                    {
+                        "valueBoolean": true
+                    }
+                ]
+            },
+            {
+                "linkId": "9795",
+                "text": "enter tribe or tribal descent",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "escriba tribu u origen tribal"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "10448",
+                "text": "social security number",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "n\u00famero de seguro social"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5789",
+                "text": "person 1 first name",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "nombre de la primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "9767",
+                "text": "person 1 middle initial",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "inicial del segundo nombre de la primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5790",
+                "text": "person 1 last name",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "apellido de la primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5791",
+                "text": "person 1 address 1",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "direcci\u00f3n n\u00famero 1 de la primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5792",
+                "text": "person 1 address 2",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "direcci\u00f3n n\u00famero 2 de la primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5793",
+                "text": "person 1 city",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "ciudad de primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "10409",
+                "text": "person 1 state",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "estado de primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "10412",
+                "text": "PersonOneAddress_PersonOneAddressZipCode",
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5796",
+                "text": "person 1 email address",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "correo electr\u00f3nico de primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "10413",
+                "text": "person 1 phone number",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "tel\u00e9fono de primera persona"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            },
+            {
+                "linkId": "5798",
+                "text": "relationship to you",
+                "_text": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "relaci\u00f3n con el entrevistado"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "answer": [
+                    {
+                        "valueCoding": {
+                            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+                            "code": "PMI_Skip"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "id": "642982766"
+}
